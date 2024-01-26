@@ -1,95 +1,88 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <div className=" fundoLilas">
+        <div className="container containerCapa">
+          <div className="row row-cols-1 row-cols-lg-2">
+            <div className="col">
+              <div className="d-flex justify-content-start align-items-center">
+                <h className="tituloSecao">CURSO ANA BANANA, O MELHOR CURSO DE BANANAGEM</h>
+              </div>
+              <div className="d-flex paragrafoSecao justify-content-start align-items-center pt-4 pb-4">
+                <h>O curso ana banana é o curso da ana banana que te ensina a ser uma banana</h>
+              </div>
+              
+              <div className="ratio ratio-16x9">
+                <iframe
+                  className="videoCapa d-flex align-items-center justify-content-center"
+                  src='https://www.youtube.com/embed/6uo3Nj0sfSw'
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="d-flex justify-content-center aling-items-center  pt-3 pb-3">
+                <a href="https://khaledkzy.github.io/pixel-vh-vw-converter/" className="link">
+                  <div className="botao">
+                    <h className="textoBotao">Seja uma banana</h>
+                  </div>
+                </a>
+              </div>
+              <div className="row row-cols-3 pt-4">
+                <div className="col">
+                  <div className="row row-cols-1">
+                    <div className="col">
+                      <div className="d-flex align-items-center justify-content-center">
+                        <img src="/images/check.svg" />
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="d-flex align-items-center justify-content-center">
+                        <h className="legendaIcone">
+                          Acesso imediato
+                        </h>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="row row-cols-1">
+                    <div className="col">
+                      <div className="d-flex align-items-center justify-content-center">
+                        <img src="/images/chat.svg" />
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="d-flex align-items-center justify-content-center">
+                        <h className="legendaIcone">
+                          Suporte à dúvidas
+                        </h>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="row row-cols-1">
+                    <div className="col">
+                      <div className="d-flex align-items-center justify-content-center">
+                        <img src="/images/lock.svg" />
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="d-flex align-items-center justify-content-center">
+                        <h className="legendaIcone">
+                          Garantia de 7 dias
+                        </h>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </>
   )
 }

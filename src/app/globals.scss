@@ -1,0 +1,92 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+
+.link {
+  text-decoration: none;
+}
+
+.fundoLilas {
+  background-color: #F3DFE0;
+}
+
+.fundoSalmao {
+  background-color: #F2CAB9;
+}
+
+.fundoBranco {
+  background-color: #FFFFFF;
+}
+
+.botao {
+  display: flex;
+  width: 100vw;
+  max-width: 85vw;
+  height: 57px;
+  padding: 33px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #E6B7A3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tituloSecao {
+  color: #482122;
+  text-align: start;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.legendaIcone {
+  width: 98px;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.paragrafoSecao {
+  color: #482122;
+  text-align: start;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.textoBotao {
+  color: #482122;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.containerCapa {
+  height: calc(100vh - 64px);
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-top: 8vh;
+}
+
+@media (max-width: 426px) {
+  .containerCapa {
+    height: calc(100vh - 50px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .containerCapa {
+    padding-left: 2px;
+    padding-right: 2px;
+    height: calc(100vh - 11px);
+  }
+}
