@@ -1,6 +1,9 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
 
+.video{
+  min-width: 200px;
+}
 
 .link {
   text-decoration: none;
@@ -35,22 +38,6 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-@media (max-width: 440px) {
-  .botao {
-    display: flex;
-    width: 100vw;
-    max-width: 330px;
-    height: 57px;
-    padding: 33px 0px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #E6B7A3;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
-}
 
 .tituloSecao {
   color: #482122;
@@ -60,29 +47,7 @@
   font-weight: 900;
   line-height: normal;
 }
-@media (max-width: 768px){
-  .tituloSecao {
-    color: #482122;
-    text-align: start;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-  }
-  .subContainer {
-    height: 100%;
-    display: flex;
-  }
-  .paragrafoSecao {
-    color: #482122;
-    text-align: start;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
 
-}
 
 .legendaIcone {
   width: 98px;
@@ -113,13 +78,66 @@
 }
 
 .containerCapa {
-  min-height: calc(100vh);
+  min-height: 100vh;
   height: auto;
+  align-items: center;
+  display: flex;
 
 }
 
-.subContainer{
+.subContainer {
   height: 100%;
-  display: flex;
   align-items: center;
+}
+
+@media (max-width: 440px) {
+  .botao {
+    display: flex;
+    width: 100vw;
+    max-width: 330px;
+    height: 57px;
+    padding: 33px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #E6B7A3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media (max-width: 768px) {
+  .tituloSecao {
+    color: #482122;
+    text-align: start;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+
+  .paragrafoSecao {
+    color: #482122;
+    text-align: start;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1200px) {
+  .iconesSmall {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .subContainer {
+    height: 100%;
+    align-items: center;
+    padding-top: 10vh;
+  }
 }

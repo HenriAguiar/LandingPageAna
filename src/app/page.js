@@ -13,7 +13,7 @@ export default function Page() {
                 <div className="d-flex paragrafoSecao justify-content-start align-items-center pt-4 pb-5">
                   <h>O curso ana banana é o curso da ana banana que te ensina a ser uma banana em até 30 dias, sem complicação, com um plano claro para você obter os melhores resultados</h>
                 </div>
-                <div className="d-none d-xl-block pt-1">
+                <div className="d-none d-sm-none d-xl-block pt-1">
                   <div className="row row-cols-3 pt-4">
                     <div className="col">
                       <div className="row row-cols-1">
@@ -69,7 +69,6 @@ export default function Page() {
               </div>
 
               <div className="col">
-                <div className="align-items-center">
                   <div className="ratio ratio-16x9">
                     <iframe
                       className="videoCapa d-flex align-items-center justify-content-center"
@@ -90,7 +89,7 @@ export default function Page() {
 
               </div>
 
-              <div className="col d-none d-sm-block d-xl-none pb-5">
+              <div className="col iconesSmall pb-5">
                 <div className="row row-cols-3 pt-4">
                   <div className="col">
                     <div className="row row-cols-1">
@@ -145,8 +144,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-
-      </div>
     </>
   )
 }
