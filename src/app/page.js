@@ -65,14 +65,12 @@ export default function Page() {
                     </div>
                   </div>
                 </div>
-
               </div>
-
               <div className="col">
                   <div className="ratio ratio-16x9">
                     <iframe
-                      className="videoCapa d-flex align-items-center justify-content-center"
-                      src='https://www.youtube.com/embed/6uo3Nj0sfSw'
+                      className="d-flex align-items-center justify-content-center"
+                      src='https://www.youtube.com/embed/94tuRCrB8bM'
                       title="YouTube video player"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
@@ -86,9 +84,7 @@ export default function Page() {
                     </a>
                   </div>
                 </div>
-
               </div>
-
               <div className="col iconesSmall pb-5">
                 <div className="row row-cols-3 pt-4">
                   <div className="col">

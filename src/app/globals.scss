@@ -1,9 +1,6 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
 
-.video{
-  min-width: 200px;
-}
 
 .link {
   text-decoration: none;
@@ -25,7 +22,7 @@
 
 .botao {
   display: flex;
-  width: 100vw;
+  width: 80vw;
   max-width: 330px;
   height: 70px;
   padding: 33px 0px;
@@ -85,18 +82,14 @@
 
 }
 
-.subContainer {
-  height: 100%;
-  align-items: center;
-}
 
-@media (max-width: 440px) {
+
+
+@media (max-width: 768px) {
   .botao {
     display: flex;
     width: 100vw;
-    max-width: 330px;
-    height: 57px;
-    padding: 33px 0px;
+    height: 70px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -105,9 +98,7 @@
     background: #E6B7A3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
-}
-
-@media (max-width: 768px) {
+  
   .tituloSecao {
     color: #482122;
     text-align: start;
@@ -116,7 +107,6 @@
     font-weight: 900;
     line-height: normal;
   }
-
 
   .paragrafoSecao {
     color: #482122;
@@ -127,7 +117,6 @@
     line-height: normal;
   }
 }
-
 @media (min-width: 1200px) {
   .iconesSmall {
     display: none;
