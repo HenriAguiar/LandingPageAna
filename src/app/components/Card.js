@@ -2,6 +2,7 @@
 
 export default function Card() {
     return (
+        <div className="d-flex">
         <div className="card">
             <div className="cardContainer">
                 <div className="fotoCard">
@@ -14,6 +15,7 @@ export default function Card() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

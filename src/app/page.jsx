@@ -1,4 +1,4 @@
-import Slider from "./components/Slider";
+import Carrossel from "./components/Carrossel";
 
 export default function Page() {
   return (
@@ -144,7 +144,7 @@ export default function Page() {
 
       <div className="fundoCinza">
         <div className="container containerTabletHalf">
-          <div className="subContainerS d-flex flex-column justify-content-center align-items-center">
+          <div className="">
             <div className="d-flex justify-content-center align-items-center">
               <h className="tituloSecaoCentro">CENTENAS DE PESSOAS JÁ SE TORNARAM BANANAS</h>
             </div>
@@ -158,6 +158,7 @@ export default function Page() {
             </div>
           </div>
         </div>
+        <Carrossel></Carrossel>
       </div>
     </>
   )
