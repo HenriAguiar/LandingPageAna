@@ -143,7 +143,7 @@ export default function Page() {
       </div>
 
       <div className="fundoCinza">
-        <div className="container containerTabletHalf">
+        <div className="container containerTabletHalf d-flex flex-column justify-content-center align-items-center">
           <div className="">
             <div className="d-flex justify-content-center align-items-center">
               <h className="tituloSecaoCentro">CENTENAS DE PESSOAS JÁ SE TORNARAM BANANAS</h>

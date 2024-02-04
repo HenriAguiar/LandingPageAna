@@ -2,7 +2,7 @@
 
 export default function Card() {
     return (
-        <div className="d-flex">
+        <div className="d-flex align-items-center justify-content-center divCard">
         <div className="card">
             <div className="cardContainer">
                 <div className="fotoCard">
