@@ -1,18 +1,23 @@
-
-
 .slider {
-  max-width: 100vw;
-}
-
-
-
-
-.slider{
-
+  max-width: 100%;
 }
 .slider div{
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+@media (min-width: 459px) and (max-width: 580px){
+  .slider div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.divSlider{
+  max-width: 98.9vw;
+}
+
 
 .containerSetaR {
   display: flex;
@@ -27,10 +32,12 @@
   bottom: 170px;
   z-index: 2;
 }
-.slick-slide{
+
+.slick-slide {
   padding-left: 10px;
   padding-top: 10px;
 }
+
 .containerSetaL {
   display: flex;
   width: 8vw;
@@ -44,16 +51,22 @@
   bottom: 170px;
   z-index: 2;
 }
-.seta{
+
+.seta {
   width: auto;
   height: auto;
+  opacity: 0.5;
 }
 
-.divSlider{
-  padding-right: 10px;
+.divFantasma {
+  /* Adicione seus estilos aqui */
+  width: 356px;
+  background-color: aqua;
 }
+
+
+
 .containerSeta svg {
   flex: 1 0 0;
   align-self: stretch;
 }
-

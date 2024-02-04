@@ -4,6 +4,7 @@ import React, { Component, useState, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Card from "./Card";
+import CardR from "./CardR";
 
 
 function SampleNextArrow(props) {
@@ -143,14 +144,16 @@ export default class Carrossel extends Component {
                     breakpoint: 732,
                     settings: {
                         centerMode: false,
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         infinite: false,
                     }
                 },
                 {
-                    breakpoint: 717,
+                    breakpoint: 580,
                     settings: {
                         slidesToShow: 1,
+                        centerMode: true,
+                        infinite: true,
                     }
                 },
                 {
@@ -166,23 +169,19 @@ export default class Carrossel extends Component {
             ]
         };
         return (
-            <div className="divSlider">
-                <div className="container-fluid" >
-                    <div className="d-flex align-items-center justify-content-center containerSlider">
+                <div className="container-fluid p-0" >
+                    <div className="d-flex align-items-center justify-content-center divSlider">
                         <Slider {...settings} className="slider">
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
+                            <CardR></CardR>
+                            <CardR></CardR>
+                            <CardR></CardR>
+                            <CardR></CardR>
+                            <CardR></CardR>
+                            <CardR></CardR>
+                            <CardR></CardR>
                         </Slider>
                     </div>
                 </div>
-            </div>
         );
     }
 }

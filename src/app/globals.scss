@@ -1,5 +1,6 @@
 @import '~bootstrap/scss/bootstrap.scss';
 @import 'src/app/components/slider.scss';
+@import 'src/app/components/card.scss';
 
 
 .link {
@@ -34,7 +35,7 @@
 
 .tituloSecao {
   color: #482122;
-  text-align: start;
+  text-align: flex-start;
   font-size: 40px;
   font-style: normal;
   font-weight: 900;
@@ -62,7 +63,7 @@
 
 .paragrafoSecao {
   color: #482122;
-  text-align: start;
+  text-align: flex-start;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -114,7 +115,7 @@
 
 .card {
   display: flex;
-  width: 356px;
+  flex: 1 0 0;
   height: 397px;
   padding-bottom: 1px;
   flex-direction: column;
@@ -125,7 +126,7 @@
 
 .divCard {
   height: 100%;
-  width: 100%;
+ 
 }
 
 .cardContainer {
@@ -207,7 +208,7 @@
 
   .tituloSecao {
     color: #482122;
-    text-align: start;
+    text-align: flex-start;
     font-size: 25px;
     font-style: normal;
     font-weight: 900;
@@ -216,7 +217,7 @@
 
   .paragrafoSecao {
     color: #482122;
-    text-align: start;
+    text-align: flex-start;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
