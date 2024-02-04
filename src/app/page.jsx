@@ -1,4 +1,4 @@
-import Slider from "./components/Slider";
+import Carrossel from "./components/Carrossel";
 
 export default function Page() {
   return (
@@ -141,22 +141,20 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <div className="fundoCinza">
-        <div className="container containerTabletHalf">
-          <div className="subContainerS d-flex flex-column justify-content-center align-items-center">
+        <div className="container containerTabletHalf d-flex flex-column justify-content-center align-items-center">
             <div className="d-flex justify-content-center align-items-center">
               <h className="tituloSecaoCentro">CENTENAS DE PESSOAS JÁ SE TORNARAM BANANAS</h>
             </div>
-            <div className="d-flex paragrafoSecaoCentro justify-content-start align-items-center pt-4 pb-5">
+            <div className="d-flex paragrafoSecaoCentro justify-content-center align-items-center pt-4 pb-5">
               <h>Veja o que algumas alunas que já obtiveram sucesso em se tornar bananas tem a dizer sobre o curso: </h>
             </div>
             <div>
               <div className="textoAuxiliar pb-2">
                 Arraste para o lado.
               </div>
+              <Carrossel></Carrossel>
             </div>
-          </div>
         </div>
       </div>
     </>

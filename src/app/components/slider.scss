@@ -1,8 +1,72 @@
-.divSlider{
-  max-width: 100vw;
-  background-color: #d23535;
+.slider {
+  max-width: 100%;
+}
+.slider div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 459px) and (max-width: 580px){
+  .slider div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 
-.slider{
-  max-width: 100vw;
+.divSlider{
+  max-width: 98.9vw;
+}
+
+
+.containerSetaR {
+  display: flex;
+  width: 8vw;
+  height: 8vw;
+  max-width: 50px;
+  max-height: 50px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 170px;
+  z-index: 2;
+}
+
+.slick-slide {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.containerSetaL {
+  display: flex;
+  width: 8vw;
+  height: 8vw;
+  max-width: 50px;
+  max-height: 50px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  left: 20px;
+  bottom: 170px;
+  z-index: 2;
+}
+
+.seta {
+  width: auto;
+  height: auto;
+  opacity: 0.5;
+}
+
+.divFantasma {
+  /* Adicione seus estilos aqui */
+  width: 356px;
+  background-color: aqua;
+}
+
+
+
+.containerSeta svg {
+  flex: 1 0 0;
+  align-self: stretch;
 }
