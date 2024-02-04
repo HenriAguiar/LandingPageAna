@@ -49,7 +49,7 @@ export default class Carrossel extends Component {
         var settings = {
             className: "slider",
             dots: true,
-            centerMode: false,
+            centerMode: true,
             infinite: true,
             speed: 500,
             slidesToShow: 13,
@@ -60,55 +60,55 @@ export default class Carrossel extends Component {
             prevArrow: <SamplePrevArrow />,
             responsive: [
                 {
-                    breakpoint: 4671,
+                    breakpoint: 4771,
                     settings: {
                         slidesToShow: 12,
                     }
                 },
                 {
-                    breakpoint: 4301,
+                    breakpoint: 4500,
                     settings: {
                         slidesToShow: 11,
                     }
                 },
                 {
-                    breakpoint: 3931,
+                    breakpoint: 3100,
                     settings: {
                         slidesToShow: 10,
                     }
                 },
                 {
-                    breakpoint: 3561,
+                    breakpoint: 3744,
                     settings: {
                         slidesToShow: 9,
                     }
                 },
                 {
-                    breakpoint: 3191,
+                    breakpoint: 3368,
                     settings: {
                         slidesToShow: 8,
                     }
                 },
                 {
-                    breakpoint: 2821,
+                    breakpoint: 2991,
                     settings: {
                         slidesToShow: 7,
                     }
                 },
                 {
-                    breakpoint: 2500,
+                    breakpoint: 2660,
                     settings: {
                         slidesToShow: 6,
                     }
                 },
                 {
-                    breakpoint: 2181,
+                    breakpoint: 2260,
                     settings: {
                         slidesToShow: 5,
                     }
                 },
                 {
-                    breakpoint: 1800,
+                    breakpoint: 1900,
                     settings: {
                         slidesToShow: 4,
                     }
@@ -120,13 +120,35 @@ export default class Carrossel extends Component {
                     }
                 },
                 {
-                    breakpoint: 1000,
+                    breakpoint: 1183,
                     settings: {
                         slidesToShow: 2,
                     }
                 },
                 {
-                    breakpoint: 800,
+                    breakpoint: 826,
+                    settings: {
+                        centerMode: false,
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 742,
+                    settings: {
+                        centerMode: false,
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 732,
+                    settings: {
+                        centerMode: false,
+                        slidesToShow: 2,
+                        infinite: false,
+                    }
+                },
+                {
+                    breakpoint: 717,
                     settings: {
                         slidesToShow: 1,
                     }
@@ -136,7 +158,7 @@ export default class Carrossel extends Component {
                     settings: {
                         slidesToShow: 1,
                         centerMode: false,
-                        infinite: false,
+                        infinite: true,
                     }
                 },
 
@@ -145,8 +167,6 @@ export default class Carrossel extends Component {
         };
         return (
             <div className="divSlider">
-
-
                 <div className="container-fluid" >
                     <div className="d-flex align-items-center justify-content-center containerSlider">
                         <Slider {...settings} className="slider">
