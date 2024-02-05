@@ -116,30 +116,18 @@ export default class Carrossel extends Component {
                     }
                 },
                 {
-                    breakpoint: 1547,
+                    breakpoint: 1450,
                     settings: {
                         slidesToShow: 3,
+                        slidesToScroll: 3,
                     }
                 },
                 {
-                    breakpoint: 1183,
+                    breakpoint: 1090,
                     settings: {
                         slidesToShow: 2,
                         centerMode: false,
-                    }
-                },
-                {
-                    breakpoint: 826,
-                    settings: {
-                        centerMode: false,
-                        slidesToShow: 2,
-                    }
-                },
-                {
-                    breakpoint: 742,
-                    settings: {
-                        centerMode: false,
-                        slidesToShow: 2,
+                        slidesToScroll: 2,
                     }
                 },
                 {
@@ -150,22 +138,7 @@ export default class Carrossel extends Component {
                         infinite: false,
                     }
                 },
-                {
-                    breakpoint: 580,
-                    settings: {
-                        slidesToShow: 1,
-                        centerMode: false,
-                        infinite: false,
-                    }
-                },
-                {
-                    breakpoint: 458,
-                    settings: {
-                        slidesToShow: 1,
-                        centerMode: false,
-                        infinite: false,
-                    }
-                },
+
 
 
             ]
