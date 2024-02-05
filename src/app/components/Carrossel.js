@@ -54,6 +54,7 @@ export default class Carrossel extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: 13,
+            centerPadding: "0px",
 
             slidesToScroll: 1,
             arrows: true,
@@ -124,6 +125,7 @@ export default class Carrossel extends Component {
                     breakpoint: 1183,
                     settings: {
                         slidesToShow: 2,
+                        centerMode: false,
                     }
                 },
                 {
@@ -152,8 +154,8 @@ export default class Carrossel extends Component {
                     breakpoint: 580,
                     settings: {
                         slidesToShow: 1,
-                        centerMode: true,
-                        infinite: true,
+                        centerMode: false,
+                        infinite: false,
                     }
                 },
                 {
@@ -161,7 +163,7 @@ export default class Carrossel extends Component {
                     settings: {
                         slidesToShow: 1,
                         centerMode: false,
-                        infinite: true,
+                        infinite: false,
                     }
                 },
 
