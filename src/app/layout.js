@@ -6,8 +6,8 @@ import './globals.scss'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'AnaVithória',
-  description: 'Aprenda maquiagem',
+  title: 'Curso Ana Vithória',
+  description: 'Torne-se uma maquiadora profissional',
 }
 
 export default function RootLayout({ children }) {
