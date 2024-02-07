@@ -1,7 +1,8 @@
 .slider {
   max-width: 100%;
 }
-.slick-slider .slick-slide > div {
+
+.slick-slider .slick-slide>div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +12,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px !important;
+}
+
+.slick-slider>.slick-list {
+  padding-bottom: 20px;
 }
 
 .slick-slider .slick-slide {
@@ -29,50 +35,59 @@
   justify-content: center;
 }
 
-@media (min-width: 459px) and (max-width: 580px) {
-  .slider div {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
+
+.slick-dots>.slick-active circle {
+  fill: #EED0D0;
 }
+
+.slick-dots {
+  padding-top: 20px;
+}
+
 
 .divSlider {
   max-width: 98.9vw;
 }
 
 
-.containerSetaR {
-  display: flex;
-  width: 8vw;
-  height: 8vw;
-  max-width: 50px;
-  max-height: 50px;
-  align-items: flex-start;
-  gap: 10px;
-  position: absolute;
-  right: 20px;
-  bottom: 170px;
-  z-index: 2;
-}
+
 
 .slick-slide {
   padding-left: 10px;
   padding-top: 10px;
 }
-
-.containerSetaL {
-  display: flex;
+.containerSetaR {
   width: 8vw;
-  height: 8vw;
-  max-width: 50px;
-  max-height: 50px;
-  align-items: flex-start;
+  min-width: 38px;
+  height: 100%;
   gap: 10px;
   position: absolute;
-  left: 20px;
-  bottom: 170px;
+  right: 0px;
+  bottom: 0px;
   z-index: 2;
+}
+.containerSetaR div{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 20px;
+}
+.containerSetaL {
+  width: 8vw;
+  min-width: 38px;
+  height: 100%;
+  gap: 10px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
+
+.containerSetaL div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 20px;
 }
 
 .seta {
